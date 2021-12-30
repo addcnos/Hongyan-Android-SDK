@@ -281,7 +281,7 @@ public class ChatListActivity extends BaseChatListActivity {
 1.支持IM-SDK基础功能<br>
 
 
-## 相关文档
+## 相关资料
 
 #### [1.数睿鸿雁后端服务文档](https://github.com/addcnos/Hongyan-Server)
 #### [2.数睿鸿雁SDK-flutter文档](https://github.com/addcnos/Hongyan-Flutter-SDK)
