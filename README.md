@@ -283,7 +283,7 @@ public class ChatListActivity extends BaseChatListActivity {
 
 ## 相关文档
 
-#### [1.数睿鸿雁SDK-后端服务文档](https://github.com/addcnos/Hongyan-Server)
+#### [1.数睿鸿雁后端服务文档](https://github.com/addcnos/Hongyan-Server)
 #### [2.数睿鸿雁SDK-flutter文档](https://github.com/addcnos/Hongyan-Flutter-SDK)
 #### [3.数睿鸿雁SDK-Android文档](https://github.com/addcnos/Hongyan-Android-SDK)
 #### [4.数睿鸿雁SDK-Objective-C文档](https://github.com/addcnos/Hongyan-IOS-SDK)
