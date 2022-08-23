@@ -1,6 +1,7 @@
 ## 数睿鸿雁SDK Android文档
-![LICENSE](https://img.shields.io/badge/license-MIT-green)
+![LICENSE](https://img.shields.io/badge/License-MIT-orange)
 ![Language](https://img.shields.io/badge/Language-Kotlin-blue.svg)
+![Stable](https://img.shields.io/badge/Stable-v1.0.5-brightgreen.svg)
 
 #### SDK概述
 鸿雁即时通讯是数睿科技公司旗下的一款专注于为开发者提供实时聊天技术和服务的产品。我们的团队来自数睿科技，致力于为用户提供高效稳定的实时聊天云服务，且弹性可扩展，对外提供较为简洁的API接口，让您轻松实现快速集成即时通讯功能。
