@@ -1,5 +1,5 @@
 ![LICENSE](https://img.shields.io/badge/license-MIT-green)
-![Language](https://img.shields.io/badge/Language-dart-blue.svg)
+![Language](https://img.shields.io/badge/Language-Kotlin-blue.svg)
 
 ## 数睿鸿雁SDK Android文档
 
