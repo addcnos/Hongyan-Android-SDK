@@ -1,15 +1,18 @@
-# 数睿鸿雁SDK Android文档
+![LICENSE](https://img.shields.io/badge/license-MIT-green)
+![Language](https://img.shields.io/badge/Language-dart-blue.svg)
 
-## SDK概述
+## 数睿鸿雁SDK Android文档
+
+#### SDK概述
 鸿雁即时通讯是数睿科技公司旗下的一款专注于为开发者提供实时聊天技术和服务的产品。我们的团队来自数睿科技，致力于为用户提供高效稳定的实时聊天云服务，且弹性可扩展，对外提供较为简洁的API接口，让您轻松实现快速集成即时通讯功能。
 
-## 环境依赖
+#### 环境依赖
 
 SDK 兼容 Android 4.0+
 
 ## 集成流程
 
-### 1.引入SDK
+#### 1.引入SDK
 
 ```dart
 allprojects {
@@ -24,7 +27,7 @@ dependencies {
 
 ```
 
-### 2.初始化SDK
+#### 2.初始化SDK
 
 ```dart
 // 初始化SDK
@@ -47,7 +50,7 @@ IMClient.getInstance().connect(token, reconnect)
 IMClient.getInstance().setOnReceiveNotifyListener(IMReceiveNotify())
 ```
 
-### 3.消息接收监听
+#### 3.消息接收监听
 
 ```dart
 // 注册消息接收监听器
@@ -60,7 +63,7 @@ override fun onReceived(chatMessage: ChatMessage?) {
 
 ## 方法说明
 
-### 1.发送消息
+#### 1.发送消息
 
 ```dart
 //发送消息
@@ -75,7 +78,7 @@ sendMessage(token: String, type: String, targetUid: String, content: String, res
 | resultListener | OnResultCallbackListener | 发送请求的结果回调监听 |
 
 
-### 2.获取历史消息
+#### 2.获取历史消息
 
 ```dart
 //拉取历史消息
@@ -89,7 +92,7 @@ loadHistoryData(token: String, targetUid: String, lastId: String, resultListener
 | resultListener | OnResultCallbackListener | 发送请求的结果回调监听 |
 
 
-### 3.发送消息已读
+#### 3.发送消息已读
 
 ```dart
 //发送消息已读
@@ -102,7 +105,7 @@ readMsg(token: String, targetUid: String, resultListener: OnResultCallbackListen
 | resultListener | OnResultCallbackListener | 发送请求的结果回调监听 |
 
 
-### 4.获取未读消息数
+#### 4.获取未读消息数
 
 ```dart
 //获取所有的新消息数
@@ -115,7 +118,7 @@ getAllNewMessage(token: String, targetUid: String, resultListener: OnResultCallb
 | resultListener | OnResultCallbackListener | 发送请求的结果回调监听 |
 
 
-### 5.获取会员信息
+#### 5.获取会员信息
 
 ```dart
 //获取会员信息
@@ -128,7 +131,7 @@ getUserInfo(token: String, targetUid: String, resultListener: OnResultCallbackLi
 | resultListener | OnResultCallbackListener | 发送请求的结果回调监听 |
 
 
-### 6.删除联络人
+#### 6.删除联络人
 
 ```dart
 //删除联络人
@@ -141,7 +144,7 @@ deleteConversation(token: String, targetUid: String, resultListener: OnResultCal
 | resultListener | OnResultCallbackListener | 发送请求的结果回调监听 |
 
 
-### 7.发送图片
+#### 7.发送图片
 
 ```dart
 //上传图片
@@ -156,7 +159,7 @@ uploadImage(token: String, file: File, resultListener: OnProgressListener)
 
 ## 集成即时通讯UI（可选）
 
-### 1.集成聊天界面
+#### 1.集成聊天界面
 
 ```dart
 // 继承聊天界面
@@ -215,7 +218,7 @@ public class ChatActivity : BaseChatActivity() {
 }
 ```
 
-### 2.集成消息列表界面
+#### 2.集成消息列表界面
 
 
 ```dart
@@ -249,33 +252,33 @@ public class ChatListActivity extends BaseChatListActivity {
 
 ## 版本更新说明
 
-### v1.0.5 版本（新）
+#### v1.0.5 版本（新）
 
 更新日期：2021年2月1日<br>
 1.集成UI库：支持一键接入聊天列表和聊天会话界面<br>
 
-### v1.0.4 版本
+#### v1.0.4 版本
 
 更新日期：2020年7月1日<br>
 1.提供WS连接回调<br>
 
-### v1.0.3 版本
+#### v1.0.3 版本
 
 更新日期：2020年1月6日<br>
 1.支持UI库简单控件的调用<br>
 2.域名支持动态传入<br>
 
-### v1.0.2 版本
+#### v1.0.2 版本
 
 更新日期：2019年12月19日<br>
 1.IM-SDK代码功能优化<br>
 
-### v1.0.1 版本
+#### v1.0.1 版本
 
 更新日期：2019年11月26日<br>
 1.IM-SDK代码功能优化<br>
 
-### v1.0.0 版本
+#### v1.0.0 版本
 
 更新日期：2019年11月8日<br>
 1.支持IM-SDK基础功能<br>
@@ -283,8 +286,8 @@ public class ChatListActivity extends BaseChatListActivity {
 
 ## 相关资料
 
-#### [1.数睿鸿雁后端服务文档](https://github.com/addcnos/Hongyan-Server)
-#### [2.数睿鸿雁SDK-flutter文档](https://github.com/addcnos/Hongyan-Flutter-SDK)
-#### [3.数睿鸿雁SDK-Android文档](https://github.com/addcnos/Hongyan-Android-SDK)
-#### [4.数睿鸿雁SDK-Objective-C文档](https://github.com/addcnos/Hongyan-IOS-SDK)
-#### [5.数睿鸿雁SDK-Web文档](https://github.com/addcnos/Hongyan-Web-SDK)
+#### [数睿鸿雁后端服务文档](https://github.com/addcnos/Hongyan-Server)
+#### [数睿鸿雁SDK-flutter文档](https://github.com/addcnos/Hongyan-Flutter-SDK)
+#### [数睿鸿雁SDK-Android文档](https://github.com/addcnos/Hongyan-Android-SDK)
+#### [数睿鸿雁SDK-Objective-C文档](https://github.com/addcnos/Hongyan-IOS-SDK)
+#### [数睿鸿雁SDK-Web文档](https://github.com/addcnos/Hongyan-Web-SDK)
