@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/chatlist_head_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/head_bar_height"
+            android:layout_below="@+id/ll_status"
+            android:background="@color/colorPrimary">
+
+
+
+            <ImageView
+                android:id="@+id/bt_back"
+                style="@style/HeadBarButton"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ic_arrow_back_white_24dp" />
+
+
+
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#CCCCCC" />
+
+
+
+
+        <LinearLayout
+            android:id="@+id/lv_null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_size134dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/margin_size44dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="@dimen/margin_size44dp"
+                android:gravity="center"
+                android:src="@drawable/icon_no_record" />
+
+            <TextView
+
+                android:id="@+id/bt_release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_size23dp"
+                android:gravity="center"
+                android:text="暫無聊天記錄"
+                android:textColor="#666666"
+                android:textSize="@dimen/margin_size13dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <com.scwang.smartrefresh.layout.SmartRefreshLayout
+                android:id="@+id/refreshLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                app:srlEnablePreviewInEditMode="false"
+                app:srlPrimaryColor="#ffffff">
+
+                <com.addcn.im.view.CustomRefreshHeader
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    app:srlPrimaryColor="#ffffff" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:cacheColorHint="#ffffff"
+                    android:divider="@drawable/line_bak"
+                    android:dividerHeight="@dimen/margin_size1px"
+                    android:fadingEdge="none"
+                    android:fastScrollEnabled="false"
+                    android:focusable="true"
+                    android:listSelector="#ffffff" />
+
+
+
+            </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_first_load"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/body_progress_bar"
+            android:layout_width="@dimen/margin_size40dp"
+            android:layout_height="@dimen/margin_size40dp" />
+    </LinearLayout>
+
+</RelativeLayout>

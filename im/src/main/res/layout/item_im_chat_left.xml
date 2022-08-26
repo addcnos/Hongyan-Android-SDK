@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/width20px">
+
+        <TextView
+            android:id="@+id/tvLeftTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/width48px"
+            android:layout_marginTop="@dimen/width48px"
+            android:layout_marginRight="@dimen/width48px"
+            android:singleLine="true"
+            android:text=""
+            android:textSize="@dimen/width34px" />
+
+        <ImageView
+            android:id="@+id/ivLeftPortrait"
+            android:layout_width="@dimen/width148px"
+            android:layout_height="@dimen/width148px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/width20px"
+            android:layout_marginTop="@dimen/width130px"
+            android:src="@drawable/im_ic_def_msg_portrait" />
+
+        <TextView
+            android:id="@+id/tvLeftContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvLeftTime"
+            android:layout_marginLeft="@dimen/width6px"
+            android:layout_marginTop="@dimen/width48px"
+            android:layout_marginRight="@dimen/width320px"
+            android:layout_toRightOf="@+id/ivLeftPortrait"
+            android:background="@drawable/im_ic_bubble_left"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="@dimen/width40px" />
+
+        <LinearLayout
+            android:id="@+id/llLeftHouseContent"
+            android:layout_width="@dimen/width626px"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvLeftTime"
+            android:layout_marginLeft="@dimen/width20px"
+            android:layout_marginTop="@dimen/width40px"
+            android:layout_marginRight="@dimen/width320px"
+            android:layout_toRightOf="@+id/ivLeftPortrait"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <include layout="@layout/layout_im_chat_house" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llTyping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvLeftTime"
+            android:layout_marginLeft="@dimen/width20px"
+            android:layout_marginTop="@dimen/width40px"
+            android:layout_marginRight="@dimen/width320px"
+            android:layout_toRightOf="@+id/ivLeftPortrait"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <com.wyq.fast.view.TypingView
+                android:id="@+id/typingView"
+                android:layout_width="@dimen/width254px"
+                android:layout_height="@dimen/width116px"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvTypingText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/width20px"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="@dimen/width40px"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlLeftImage"
+            android:layout_width="@dimen/width315px"
+            android:layout_height="@dimen/width210px"
+            android:layout_below="@+id/tvLeftTime"
+            android:layout_marginLeft="@dimen/width20px"
+            android:layout_marginTop="@dimen/width40px"
+            android:layout_marginRight="@dimen/width320px"
+            android:layout_toRightOf="@+id/ivLeftPortrait"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/ivLeftImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/tvLeftProgress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="#80000000"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/width37px" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

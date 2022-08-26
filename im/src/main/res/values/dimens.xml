@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- PX像素 -->
+    <dimen name="margin_size1px">1px</dimen>
+    <dimen name="margin_sizey1px">1px</dimen>
+    <dimen name="margin_size2px">2px</dimen>
+    <dimen name="margin_sizey2px">2px</dimen>
+
+
+    <!-- 按鈕內部間隙 All components align to an 8dp square baseline grid for mobile, tablet, and desktop.-->
+    <dimen name="button_padding">8dp</dimen>
+    <!-- 按鈕外部距離 -->
+    <dimen name="button_margin">8dp</dimen>
+    <!-- 状态栏高度 Status bar: 24dp -->
+    <dimen name="status_bar_height">24dp</dimen>
+    <!-- 应用栏高度 App bar: 56dp -->
+    <dimen name="head_bar_height">56dp</dimen>
+
+</resources>

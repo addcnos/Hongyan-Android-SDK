@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryIM">#ff8000</color>
+    <color name="colorPrimaryDarkIM">#D16900</color>
+    <color name="colorAccentIM">#ffae5c</color>
+    <color name="colorPrimary">#00574B</color>
+    <color name="half_transparent">#10000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

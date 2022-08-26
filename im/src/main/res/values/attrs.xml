@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="IMCanBanScrollViewPager">
+        <attr name="isScroll" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="PullToRefreshProgressView">
+        <attr name="ringProgressColor" format="color" />
+        <attr name="ringWidth" format="dimension" />
+        <attr name="ringImage" format="reference" />
+        <attr name="ringmax" format="integer" />
+    </declare-styleable>
+
+
+</resources>
