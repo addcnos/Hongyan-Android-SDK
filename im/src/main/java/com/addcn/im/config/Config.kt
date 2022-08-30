@@ -22,7 +22,7 @@ package com.addcn.im.config
 
 object Config {
 
-    const val updateimmessageAction = "com.addcn.im.activity.updateImMessage";
+    const val updateimmessageAction = "com.im.activity.updateImMessage"
     const val cacheNameIM = "CacheIM"
     const val cacheKeyDebug = "keySwitch"
     const val cacheKeyToken = "keyToken"
@@ -31,21 +31,27 @@ object Config {
     const val cacheKeyIMHost = "keyIMHost"
     const val cacheKeyIMHostDebug = "keyIMHostDebug"
 
-    const val hostWSS = "wss://im.591.com.hk"
-    const val hostWSSDebug = "wss://im.debug.591.com.hk"
-    const val hostIM = "https://im.591.com.hk"
-    const val hostIMDebug = "https://im.debug.591.com.hk"
+    // 域名
+    const val hostWSS = "wss://im.example.com"
+    const val hostWSSDebug = "wss://im.debug.example.com"
+    const val hostIM = "https://im.example.com"
+    const val hostIMDebug = "https://im.debug.example.com"
 
     // Message type: text
     const val msgTypeTxt = "Msg:Txt"
+
     // Message type: image
     const val msgTypeImg = "Msg:Img"
+
     // Message type: Custom
     const val msgTypeCustomize = "Msg:Customize"
+
     // Message type: Local typing
     const val msgTypeTyping = "Msg:LocalTyping"
+
     // Message type: Local hint
     const val msgTypeHint = "Msg:LocalHint"
+
     // Message type: Information
     const val msgTypeInformationReminder = "Msg:Information"
 

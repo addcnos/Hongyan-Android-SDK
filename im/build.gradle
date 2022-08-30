@@ -16,9 +16,6 @@ artifacts {
 uploadArchives {
     repositories {
         mavenDeployer {
-            repository(url: "http://nexus.addcn.com/repository/addcnIM/") {
-                authentication(userName: "admin", password: "addcn8891")
-            }
             pom.groupId = "com.addcn.im"
             pom.artifactId = "im"
             pom.version = "1.0.5"
