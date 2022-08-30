@@ -37,9 +37,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             // 跳转聊天列表
             val intent = Intent(this@MainActivity, ChatListActivity::class.java)
             val bundle = Bundle()
-            bundle.putString("token", "9a0eabe69ed3ff8733bda3e600a1c2016b5c58e3")
-            //1.token:9976e7b0820a0cbb9fbc5e4786ba358069b27566   uid:15312
-            //2.toekn:9a0eabe69ed3ff8733bda3e600a1c2016b5c58e3   uid:268
+            bundle.putString("token", "example")
             intent.putExtras(bundle)
             startActivity(intent)
         }
@@ -59,20 +57,20 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             when (v.id) {
                 R.id.btnChatA -> {
                     // 这里传自己的IM - token
-                    bundle.putString("token", "9976e7b0820a0cbb9fbc5e4786ba358069b27566")
+                    bundle.putString("token", "example")
                     // 这里传对方的聊天ID，你要跟谁聊天，就传谁的ID
-                    bundle.putString("target_uid", "268")
+                    bundle.putString("target_uid", "example")
                     // 这里传对方的昵称，你要跟谁聊天，就传谁的昵称
                     bundle.putString("target_name", "A用户")
                 }
                 R.id.btnChatB -> {
-                    bundle.putString("token", "9ed54245be56b9977e979f378ea723ffe329e97b")
-                    bundle.putString("target_uid", "10dc65f64-623d-400e-95fe-62d2f7fd207f")
+                    bundle.putString("token", "example")
+                    bundle.putString("target_uid", "example")
                     bundle.putString("target_name", "B用户")
                 }
                 R.id.btnChatC -> {
-                    bundle.putString("token", "9976e7b0820a0cbb9fbc5e4786ba358069b27566")
-                    bundle.putString("target_uid", "268")
+                    bundle.putString("token", "example")
+                    bundle.putString("target_uid", "example")
                     bundle.putString("target_name", "C用户")
                 }
             }

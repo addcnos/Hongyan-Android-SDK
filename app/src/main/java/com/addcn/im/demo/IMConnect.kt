@@ -50,7 +50,7 @@ object IMConnect {
     fun requestToken(listener: OnResultCallbackListener) {
         val curToken = SPUtil.getInstance(Config.cacheNameIM).getString(Config.cacheKeyToken)
         if (TextUtils.isEmpty(curToken)) {
-            ApiRequestHelper.instance.doGet("https://service.591.com.hk/api/Im/getToken?device=android&version=4.30.1.142&sdk=28&idcode=864229034448571", object : OnResultCallbackListener {
+            ApiRequestHelper.instance.doGet("https://www.example.com/api/Im/getToken", object : OnResultCallbackListener {
                 override fun onCallbackListener(result: String?) {
                     if (null != result) {
                         val jsonObject = ObjectValueUtil.getJSONObject(result)

@@ -32,12 +32,11 @@ class BaseApplication : Application() {
 
         // 初始化SDK
         IMApp.init(this)
-        // 设置域名 (以HK591为例)
-        IMApp.setWSSHost("wss://im.591.com.hk")
-        // IMApp.setWSSHost("wss://im.591.com.tw:1216")
-        IMApp.setWSSHostDebug("wss://im.debug.591.com.hk")
-        IMApp.setIMHost("https://im.591.com.hk")
-        IMApp.setIMHostDebug("https://im.debug.591.com.hk")
+        // 设置域名
+        IMApp.setWSSHost("wss://www.example.com")
+        IMApp.setWSSHostDebug("wss://www.debug.example.com")
+        IMApp.setIMHost("https://im.example.com")
+        IMApp.setIMHostDebug("https://im.debug.example.com")
         // 开启日志输出
         IMApp.setLogEnabled(true)
         // 接口切换成debug

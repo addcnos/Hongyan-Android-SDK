@@ -12,8 +12,8 @@ import com.addcn.im.activity.BaseChatListActivity;
  * chatList activity
  */
 public class ChatListActivity extends BaseChatListActivity {
-    private String setDeleteIm ="https://im.debug.591.com.hk/messages/delLiaisonPerson";
-    private String setListData ="https://im.debug.591.com.hk/chat/users?token=";
+    private String setDeleteIm ="https://www.example.com/messages/delLiaisonPerson";
+    private String setListData ="https://www.example.com/chat/users?token=";
 
     @Override
     protected void setAdapterItemClick(String target_uid, String target_name, String token, int position) {
