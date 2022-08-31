@@ -14,19 +14,6 @@ SDK 兼容 Android 4.0+
 
 #### 1.引入SDK
 
-```dart
-allprojects {
-    repositories {
-        maven { url 'http://nexus.addcn.com/repository/addcnIM/' }
-    }
-}
-
-dependencies {
-    implementation 'com.addcn.im:im:1.0.5'
-}
-
-```
-
 #### 2.初始化SDK
 
 ```dart
