@@ -13,6 +13,16 @@ SDK 兼容 Android 4.0+
 ## 集成流程
 
 #### 1.引入SDK
+allprojects {
+repositories {
+...
+maven { url "https://jitpack.io" }
+}
+}
+
+dependencies {
+implementation 'com.github.addcnos:Hongyan-Android-SDK:Tag'
+}
 
 #### 2.初始化SDK
 
