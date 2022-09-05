@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ce002476-e821-4092-aa15-feff53bdcb12" name="Default Changelist" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/addcn/im/demo/BaseApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/addcn/im/demo/ChatActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/addcn/im/demo/ChatListActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/addcn/im/demo/IMConnect.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/addcn/im/demo/IMReceiveNotify.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/addcn/im/demo/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/addcn/im/demo/NotifyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/OkHttpGlideModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/activity/BaseChatActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/activity/BaseChatListActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/activity/ImageActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/adapter/BaseViewPagerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/adapter/ChatListAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/adapter/EmoJiAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/adapter/ImListAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/app/IMApp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/config/Config.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/core/IMClient.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/core/IMRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/emoji/EmoJi.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/emoji/EmoJiFilter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/emoji/EmoJiItem.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/emoji/EmoJiTextView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/entity/ChatMessage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/glide/Glide4Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/glide/GlideCircleTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/glide/OkHttpStreamFetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/glide/OkHttpUrlLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/glide/UnsafeOkHttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/interfaces/OnAsyncTaskCallbackListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/interfaces/OnChatActionListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/interfaces/OnProgressListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/interfaces/OnReceiveMessageListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/interfaces/OnResultCallbackListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/interfaces/OnUploadPhotoProgressListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/request/ApiRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/request/ApiRequestHelper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/request/CmlRequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/request/HttpClientHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/request/UploadImage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/request/UploadPhoto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/request/store/CookieJarImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/request/store/CookieStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/request/store/PersistentCookieStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/request/store/SerializableHttpCookie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/ui/FixedGridView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/ui/HackyViewPager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/ui/IMEditText.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/ui/IMHeadManage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/util/CalendarUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/util/GlideUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/util/LogUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/view/CustomRefreshHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/view/MyTextView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/java/com/addcn/im/view/PullToRefreshProgressView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/anim/rotating.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-v21/drawable_head_back_bg_transparent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-v21/ic_msg_avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-v21/ic_refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-v21/icon_down_refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-v21/icon_no_record.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-v21/line_bak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-v21/no_photo_80x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-v21/shape_im_send_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/ic_arrow_back_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/ic_lens_grey_18dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/ic_lens_orange_18dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/im_conversation_list_msg_send_failure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/im_edit_text_background.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/im_emotion_toggle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/im_emotion_toggle_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/im_ext_plugin_toggle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/im_ext_plugin_toggle_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/im_ic_bubble_left.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/im_ic_bubble_right.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/im_ic_def_coversation_portrait.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/im_ic_def_msg_portrait.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/im_icon_emoji_delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/im_loading.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/im_plugin_default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/im_tab_emoji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f30f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f319.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f332.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f339.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f33b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f349.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f356.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f35a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f366.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f36b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f377.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f37b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f381.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f382.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f384.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f389.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f393.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f3a4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f3b2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f3b5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f3c0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f3c2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f3e1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f434.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f436.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f437.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f44a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f44c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f44d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f44e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f44f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f451.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f46a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f46b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f47b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f47c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f47d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f47f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f484.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f48a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f48b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f48d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f494.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f496.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f4a1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f4a2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f4a3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f4a4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f4a9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f4aa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f4b0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f4da.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f4de.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f4e2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f525.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f52b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f556.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f601.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f602.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f603.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f605.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f606.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f607.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f608.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f609.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f60a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f60b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f60c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f60d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f60e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f60f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f611.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f612.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f613.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f615.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f616.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f618.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f61a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f61c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f61d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f61e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f61f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f621.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f622.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f623.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f624.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f628.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f629.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f62a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f62b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f62c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f62d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f62e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f62f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f630.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f631.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f632.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f633.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f634.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f635.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f636.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f637.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f648.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f649.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f64a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f64f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f680.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f6ab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f6b2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f6bf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u1f91d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u23f0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u23f3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u2600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u2601.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u2614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u2615.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u261d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u263a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u26a1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u26bd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u26c4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u26c5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u270a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u270b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u270c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u270f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u2744.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xhdpi/u2b50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xxhdpi/ic_arrow_back_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xxhdpi/ic_lens_grey_18dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xxhdpi/ic_lens_orange_18dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xxxhdpi/ic_arrow_back_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xxxhdpi/ic_lens_grey_18dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable-xxxhdpi/ic_lens_orange_18dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable/ic_arrow_back_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable/ic_ctype_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable/ic_ctype_image_pre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable/ic_emoji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable/im_emotion_toggle_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable/im_plugin_toggle_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable/message_shap_chat_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable/shape_im_chat_house_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/drawable/shape_im_send_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/layout/activity_im_chat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/layout/activity_im_image.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/layout/activity_question_answer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/layout/item_im_chat_left.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/layout/item_im_chat_right.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/layout/item_im_default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/layout/item_im_emoji.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/layout/item_im_emoji_facial.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/layout/item_im_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/layout/layout_im_chat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/layout/layout_im_chat_house.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/layout/layout_im_edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/layout/layout_im_head.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/layout/layout_pull_to_refresh.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/values/attrs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/values/dimens_height.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/values/dimens_width.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/values/im_emoji.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/values/lay_x.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/values/lay_y.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/im/src/main/res/values/zhihu_style.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Applications/Android Emulator.app/Contents/MacOS/api30-gphone-arm64-v8a]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KotlinMultiplatform">
+    <allAvailableExecutables />
+  </component>
+  <component name="ProjectId" id="2EL1RCWQtNbLIg94f3sGPCvl1FO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1662360131229" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="Hongyan-Android-SDK.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce002476-e821-4092-aa15-feff53bdcb12" name="Default Changelist" comment="" />
+      <created>1662360040386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662360040386</updated>
+    </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1662361469395</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662361469395</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init commit">
+      <created>1662362689043</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662362689043</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+  </component>
+</project>

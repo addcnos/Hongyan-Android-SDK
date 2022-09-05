@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_im_chat_house_bg"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivHousePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/width402px"
+        android:layout_gravity="center"
+        android:padding="@dimen/width0px"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/width27px"
+        android:layout_marginBottom="@dimen/width27px"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvLine1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="#FE5907"
+            android:textSize="@dimen/width40px" />
+
+        <TextView
+            android:id="@+id/tvLine2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="@dimen/width40px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvLine3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/width27px"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="#666666"
+            android:textSize="@dimen/width30px" />
+
+    </LinearLayout>
+
+</LinearLayout>

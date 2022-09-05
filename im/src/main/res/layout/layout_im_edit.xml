@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ly_head_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#f3f3f3"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:paddingTop="6dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="6dp">
+
+            <EditText
+                android:id="@+id/et_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/message_shap_chat_bg"
+                android:maxLines="3"
+                android:minHeight="36dp"
+                android:paddingLeft="13dp"
+                android:textSize="11dp" />
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_im_select_emo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10px"
+            android:src="@drawable/ic_emoji" />
+
+        <ImageView
+            android:id="@+id/iv_im_select_pic"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="14px"
+            android:src="@drawable/ic_ctype_image" />
+
+
+        <Button
+            android:id="@+id/bt_im_send_message"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:padding="1dp"
+            android:visibility="gone"
+            android:text="发送"
+            android:textSize="13dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

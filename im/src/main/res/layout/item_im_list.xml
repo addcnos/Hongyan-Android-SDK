@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size100dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="@dimen/margin_size82dp"
+            android:layout_height="@dimen/margin_size82dp"
+          >
+
+            <ImageView
+                android:id="@+id/iv_avatar"
+                android:layout_width="@dimen/margin_size55dp"
+                android:layout_height="@dimen/margin_size55dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/margin_size13dp"
+                android:layout_marginTop="@dimen/margin_size13dp"
+                android:layout_marginBottom="@dimen/margin_size13dp"
+                android:src="@drawable/ic_msg_avatar" />
+
+
+            <com.addcn.im.view.MyTextView
+                android:id="@+id/tv_content_number"
+                android:layout_width="5dp"
+                android:layout_height="15dp"
+                android:layout_alignTop="@+id/iv_avatar"
+                android:layout_marginLeft="-13dp"
+                android:layout_marginTop="1dp"
+                 android:layout_toRightOf="@+id/iv_avatar" />
+
+
+         </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_size13dp"
+            android:layout_marginRight="@dimen/margin_size4dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:gravity="left|top"
+                    android:maxLines="1"
+                    android:text=" "
+                    android:textColor="#222222"
+                    android:textSize="@dimen/margin_size21dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_marginTop="@dimen/margin_size3dp"
+                    android:id="@+id/tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/margin_size8dp"
+                    android:maxLines="1"
+                    android:text="32131123122"
+                    android:textColor="#999999"
+                    android:textSize="@dimen/margin_size15dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_size40dp"
+                android:layout_marginTop="@dimen/margin_size4dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text=""
+                android:textColor="#999999"
+                android:textSize="@dimen/margin_size20dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="@dimen/margin_sizey3dp"
+        android:id="@+id/v_line"
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:layout_marginLeft="@dimen/margin_size57dp"
+         android:background="#e6e6e6" />
+
+</LinearLayout>
